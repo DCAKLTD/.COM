@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DCAK Ltd - Same Day Couriers</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <img src="assets/logo.png" alt="DCAK Logo" class="nav-logo"/>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#fleet">Fleet</a></li>
+        <li><a href="quote.html">Get Quote</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>DCAK Ltd</h1>
+      <p>Reliable Same-Day Courier Services Across England</p>
+      <a href="quote.html" class="button">Get a Quote</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>DCAK Ltd specializes in fast and secure van courier services. We handle time-sensitive deliveries all over England with our fleet of reliable vehicles.</p>
+      <p><strong>Address:</strong> Unit 14, Universal Building, MAnchester</p>
+    </section>
+
+    <section id="fleet">
+      <h2>Our Fleet</h2>
+      <div class="fleet-gallery">
+        <img src="assets/ford-transit.jpg" alt="Ford Transit L3H2">
+        <img src="assets/mercedes-sprinter.jpg" alt="Mercedes Sprinter L3H2">
+        <img src="assets/citroen-relay.jpg" alt="Citroën Relay L3H2">
+        <img src="assets/peugeot-boxer.jpg" alt="Peugeot Boxer L3H2">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us at <a href="mailto:dcakltd@gmail.com">dcakltd@gmail.com</a> or call <a href="tel:+447830399893">+44 7830 399893</a></p>
+    <p>Address: Unit 14, Universal Building, Manchester</p>
+  </footer>
+
+  <a href="https://wa.me/447830399893" class="whatsapp-float" target="_blank">
+    <img src="assets/whatsapp-icon.png" alt="WhatsApp Chat"/>
+  </a>
+</body>
+</html>
